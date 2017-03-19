@@ -1,0 +1,143 @@
+/*
+  Custom helpers
+========================================================
+  mt=margin-top, nmt=negative margin-top, pt=padding-top
+  pl=padding-left, pb=padding-bottom.....etc
+*/
+
+.mt80 {
+  margin-top: 80px;
+}
+
+.nmt30 {
+  margin-top: -30px;
+}
+
+.nmt80 {
+  margin-top: -80px;
+}
+
+.pt80 {
+  padding-top: 80px;
+}
+
+.pl40 {
+  padding-left: 40px;
+}
+
+.pb100 {
+  padding-bottom: 100px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.grey-background {
+  background-color: #eeecec;
+}
+
+/* End Custom helpers */
+
+
+body {
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: #555555;
+  color: #fff;
+  margin-top: 5px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.jumbotron {
+  background-image: url(images/top-banner.jpg);
+  height: 670px;
+  padding-top: 150px;
+  color: white;
+  margin-top: -100px;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+  height: 70px;
+  margin-top: 10px;
+}
+
+.navbar-nav {
+  padding-top: 35px;
+}
+
+.navbar-nav li a {
+  color: #fff;
+  font-size: 17px;
+}
+
+.btn-primary {
+  border-radius: 40px;
+  padding: 13px 30px 13px 30px !important;
+}
+
+.btn-nav-white {
+  background-color: #fff;
+  color: #346f9e !important;
+  border-color: #fff;
+  font-weight: bold;
+}
+
+.btn-nav-white:hover{
+  background-color: #346f9e !important;
+  color: #fff !important;
+  border-color: #346f9e;
+}
+
+.btn-lg {
+  padding: 20px 58px 20px 58px !important;
+  background-color: #ffd845;
+  border: #ffd845;
+  color: #000;
+}
+
+.btn-lg:hover {
+  background-color: #346f9e;
+}
+
+.navbar-nav li {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.navbar-nav li a {
+  color: #ffd845;
+}
+
+.navbar-nav li a:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.section h2 {
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.section p {
+  font-size: 20.83px;
+}
+
+.section .btn {
+  margin-top: 110px;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+  background-color: transparent;
+  color: #346f9e;
+  border: 2px solid #346f9e;
+  border-radius: 10px;
+}
+
+.section .btn:hover {
+  background-color: #346f9e;
+  color: #fff;
+}

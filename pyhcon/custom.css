@@ -141,3 +141,75 @@ footer {
   background-color: #346f9e;
   color: #fff;
 }
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+}
+@media(max-width: 992px){
+  .navbar-default .navbar-header{
+  border-color: black;
+  background-color: black;
+  }
+  .navbar-default .navbar-collapse{
+    background-color: black;
+  }
+  .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+ .navbar-collapse.collapse{
+    display: none !important;
+  }
+}
+@media(min-width: 768px) and (max-width: 992px){
+  .navbar-default .container{
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+  .container>.navbar-header {
+     margin-right: 0; 
+    margin-left: 0; 
+}
+  .navbar-toggle {
+     display: block; 
+}
+  .navbar-header{
+    width: 100%;
+    float: none;
+    height: 100px;
+  }
+  .navbar-nav>li {
+    float: none;
+}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
+  height: 410px !important;
+  max-height: 410px;
+}
+  .navbar-collapse.collapse {
+     display: none !important; 
+}
+  .navbar-collapse.collapse.in {
+     display: block !important; 
+}
+  .jumbotron{
+    padding-top: 17em;
+  }
+}
+@media(max-width: 768px){
+  .navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+    
+  }
+  
+  .navbar-header{
+    height: 100px;
+  }
+ 
+  .jumbotron{
+    padding-top: 20em;
+    /*margin-top: -38em;*/
+
+  }
+}
